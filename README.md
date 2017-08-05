@@ -2,16 +2,16 @@ I originally made this as quick hack to get the titles for Nightcore songs that 
 
 ### How to use this script?
 You need a few gems installed:
-[Nokogiri] (https://github.com/sparklemotion/nokogiri)
+[Nokogiri](https://github.com/sparklemotion/nokogiri)
 - To parse the google page
-[yt] (https://github.com/Fullscreen/yt)
+[yt](https://github.com/Fullscreen/yt)
 - To use easily use the YouTube api to retrieve video ids
 
-You also need a YouTube api key for this config; [edit here] (https://github.com/Oniiko/youtube_title_recoverer/blob/master/youtube_title_recoverer.rb#L10)
+You also need a YouTube api key for this config: [edit here](https://github.com/Oniiko/youtube_title_recoverer/blob/master/youtube_title_recoverer.rb#L10)
 
 To run it all you need to do is:
 1. Load up an interactive ruby environment (ex. irb)
-2. 'ytr = require("./youtube_title_recoverer.rb")'
+2. `ytr = require("./youtube_title_recoverer.rb")`
 3. Use your playlist id and enter it into `ytr.return_titles_playlist(<your playlist_id>)`
 
 Yeah the setup kind of sucks. I will fix this later.
